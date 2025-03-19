@@ -211,7 +211,12 @@ body.nav-active {
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
-
+img {
+    height: -100%;
+}
+.about {
+    margin-block-end: -150px; /* Further adjusted value to reduce the gap */
+}
 .container {
     padding-inline: 16px;
 }

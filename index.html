@@ -1,836 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- 
     - primary meta tags
   -->
-    <title>Julia - I'm User Interface Designer & Developer.</title>
-    <meta
-      name="title"
-      content="Julia - I'm User Interface Designer & Developer."
-    />
-    <meta
-      name="description"
-      content="This is a personal portfolio html template made by codewithsadee"
-    />
+  <title>sasank - I'm a Creative Designer & Audio Engineer.</title>
+  <meta name="title" content="Julia - I'm User Interface Designer & Developer." />
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee" />
 
-    <!-- 
+  <!-- 
     - favicon
   -->
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
 
-    <!-- 
+  <!-- 
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet" />
 
-    <!-- 
+  <!-- 
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!-- 
+  <!-- 
     - preload images
   -->
-    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
-    <link rel="preload" as="image" href="./assets/images/Blog.svg" />
-  </head>
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
+  <link rel="preload" as="image" href="./assets/images/Blog.svg" />
+</head>
 
-  <body>
-    <!-- 
+<body>
+  <!-- 
     - #HEADER
   -->
 
-    <header class="header" data-header>
-      <div class="container">
-        <a href="#" class="logo">
-          <img
-            src="./assets/images/sasank.png"
-            width="64"
-            height="24"
-            alt="Julia home"
-          />
-        </a>
-
-        <nav class="navbar" data-navbar>
-          <div class="navbar-top">
-            <a href="#" class="logo">
-              <img
-                src="./assets/images/logo-light.svg"
-                width="64"
-                height="24"
-                alt="Julia home"
-              />
-            </a>
-
-            <button
-              class="nav-close-btn"
-              aria-label="close menu"
-              data-nav-toggler
-            >
-              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-            </button>
-          </div>
-
-          <ul class="navbar-list">
-            <li>
-              <a href="#" class="navbar-link">Home</a>
-            </li>
-
-            <li>
-              <a href="#about" class="navbar-link">About</a>
-            </li>
-
-            <li>
-              <a href="#Services" class="navbar-link">Services</a>
-            </li>
-
-            <li>
-              <a href="#projects" class="navbar-link">Projects</a>
-            </li>
-
-            <li>
-              <a href="#testimonials" class="navbar-link">Testimonials</a>
-            </li>
-
-            <li>
-              <a href="#contact" class="navbar-link">Contact</a>
-            </li>
-          </ul>
-
-          <div class="wrapper">
-            <a href="mailto:info@email.com" class="contact-link"
-              >info@email.com</a
-            >
-
-            <a href="tel:001234567890" class="contact-link"
-              >00 (123) 456 78 90</a
-            >
-          </div>
-
-          <ul class="social-list">
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#https://www.facebook.com/sasank.chava"
-                class="social-link"
-              >
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-dribbble"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#https://www.instagram.com/sasank.__ch?igsh=dnI0bGxvajFvdmhq"
-                class="social-link"
-              >
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </nav>
-
-        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-        </button>
-
-        <div class="overlay" data-nav-toggler data-overlay></div>
-      </div>
-    </header>
-
-    <main>
-      <article>
-        <!-- 
-        - #HERO
-      -->
-
-        <section class="section hero" aria-label="home">
-          <div class="container">
-            <figure class="hero-banner">
-              <img
-                src="./assets/images/main.jpg"
-                width="560"
-                height="540"
-                alt="Julia"
-                class="w-100"
-                data-reveal="top"
-              />
-
-              <img
-                src="./assets/images/hero-shape.svg"
-                width="203"
-                height="91"
-                alt="250+ Projects Done"
-                class="shape"
-                data-reveal="top"
-                data-reveal-delay="0.25s"
-              />
-            </figure>
-
-            <div class="hero-content">
-              <h1
-                class="h1 hero-title"
-                data-reveal="top"
-                data-reveal-delay="0.5s"
-              >
-                I'm User Interface Designer & Developer.
-              </h1>
-
-              <p
-                class="section-text"
-                data-reveal="top"
-                data-reveal-delay="0.75s"
-              >
-                Hello! I'm Julia, a freelance user interface designer &
-                developer based in London. I’m very passionate about the work
-                that I do.
-              </p>
-
-              <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
-                <a href="#projects" class="btn btn-primary">See My Works</a>
-
-                <a href="#contact" class="btn btn-secondary">Contact Me</a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- 
-            -->
-
-        <section id="about" class="section about" aria-label="about">
-          <div class="container">
-            <div class="wrapper">
-              <div data-reveal="left">
-                <h2 class="h2 section-title">About Me</h2>
-
-                <p class="section-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer nec odio. Praesent libero. Sed cursus ante dapibus
-                  diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-                  Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed
-                  augue semper porta. Mauris massa.
-                </p>
-              </div>
-              <div data-reveal="right">
-                      <img
-                        src="./assets/images/main.jpg"
-                        loading="lazy"
-                        alt="web design icon"
-                      />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- 
-        - #services 
-      -->
-
-        <section id="Services" class="section about" aria-label="about">
-          <div class="container">
-            <div class="wrapper">
-              <div data-reveal="left">
-                <h2 class="h2 section-title">Services</h2>
-
-                <p class="section-text">
-                  Duis mollis est commodo luctus nisi erat porttitor ligula,
-                  eget lacinia odio sem nec elit. Nullam quis risus eget urna
-                  mollis ornare vel. Nulla vitae elit libero, a pharetra augue.
-                  Praesent commodo cursus magna, vel scelerisque nisl.
-                </p>
-              </div>
-
-              <!-- <ul class="progress-list" data-reveal="right">
-                <li class="progress-item">
-                  <div class="label-wrapper">
-                    <p>GRAPHIC DESIGN</p>
-
-                    <span class="span">95 %</span>
-                  </div>
-
-                  <div class="progress">
-                    <div
-                      class="progress-fill"
-                      style="width: 100%; background-color: #c7b1dd"
-                    ></div>
-                  </div>
-                </li>
-
-                <li class="progress-item">
-                  <div class="label-wrapper">
-                    <p>EDITING</p>
-
-                    <span class="span">90 %</span>
-                  </div>
-
-                  <div class="progress">
-                    <div
-                      class="progress-fill"
-                      style="width: 80%; background-color: #8caeec"
-                    ></div>
-                  </div>
-                </li>
-
-                <li class="progress-item">
-                  <div class="label-wrapper">
-                    <p>UI/UX</p>
-
-                    <span class="span">60 %</span>
-                  </div>
-
-                  <div class="progress">
-                    <div
-                      class="progress-fill"
-                      style="width: 85%; background-color: #b0d4c1"
-                    ></div>
-                  </div>
-                </li>
-
-                <li class="progress-item">
-                  <div class="label-wrapper">
-                    <p>SOUND MIXING AND MASTERING</p>
-
-                    <span class="span">90 %</span>
-                  </div>
-
-                  <div class="progress">
-                    <div
-                      class="progress-fill"
-                      style="width: 90%; background-color: #e3a6b6"
-                    ></div>
-                  </div>
-                </li>
-              </ul> -->
-            </div>
-
-            <ul class="grid-list">
-              <li data-reveal="bottom">
-                <div class="about-card">
-                  <div class="card-icon">
-                    <img
-                      src="./assets/images/icon-1.svg"
-                      width="52"
-                      height="52"
-                      loading="lazy"
-                      alt="web design icon"
-                    />
-                  </div>
-
-                  <h3 class="h4 card-title">GRAPHIC DESIGN</h3>
-
-                  <p class="card-text">
-                    Nulla vitae elit libero, a pharetra augue. Donec id elit non
-                    mi porta gravida at eget metus. Cras justo cum sociis
-                    natoque magnis.
-                  </p>
-                </div>
-              </li>
-
-              <li data-reveal="bottom" data-reveal-delay="0.25s">
-                <div class="about-card">
-                  <div class="card-icon">
-                    <img
-                      src="./assets/images/icon-2.svg"
-                      width="52"
-                      height="52"
-                      loading="lazy"
-                      alt="mobile design icon"
-                    />
-                  </div>
-
-                  <h3 class="h4 card-title">EDITING</h3>
-
-                  <p class="card-text">
-                    Nulla vitae elit libero, a pharetra augue. Donec id elit non
-                    mi porta gravida at eget metus. Cras justo cum sociis
-                    natoque magnis.
-                  </p>
-                </div>
-              </li>
-
-              <li data-reveal="bottom" data-reveal-delay="0.5s">
-                <div class="about-card">
-                  <div class="card-icon">
-                    <img
-                      src="./assets/images/icon-3.svg"
-                      width="52"
-                      height="52"
-                      loading="lazy"
-                      alt="web development icon"
-                    />
-                  </div>
-
-                  <h3 class="h4 card-title">UI/UX</h3>
-
-                  <p class="card-text">
-                    Nulla vitae elit libero, a pharetra augue. Donec id elit non
-                    mi porta gravida at eget metus. Cras justo cum sociis
-                    natoque magnis.
-                  </p>
-                </div>
-              </li>
-
-              <li data-reveal="bottom" data-reveal-delay="0.75s">
-                <div class="about-card">
-                  <div class="card-icon">
-                    <img
-                      src="./assets/images/icon-4.svg"
-                      width="52"
-                      height="52"
-                      loading="lazy"
-                      alt="web seo icon"
-                    />
-                  </div>
-
-                  <h3 class="h4 card-title">SOUND MIXING AND MASTERING</h3>
-
-                  <p class="card-text">
-                    Nulla vitae elit libero, a pharetra augue. Donec id elit non
-                    mi porta gravida at eget metus. Cras justo cum sociis
-                    natoque magnis.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <!-- 
-        - #PROJECT
-      -->
-
-        <section
-          id="projects"
-          class="section project"
-          aria-labelledby="project-label"
-        >
-          <div class="container">
-            <div class="title-wrapper" data-reveal="top">
-              <div>
-                <h2 class="h2 section-title" id="project-label">
-                  Latest Projects
-                </h2>
-
-                <p class="section-text">
-                  Check out some of my latest projects with creative ideas.
-                </p>
-              </div>
-
-              <a href="#" class="btn btn-secondary">See All Projects</a>
-            </div>
-
-            <ul class="grid-list">
-              <li>
-                <div
-                  class="project-card project-card-1"
-                  style="background-color: #f8f5fb"
-                >
-                  <div class="card-content" data-reveal="left">
-                    <p class="card-tag" style="color: #a07cc5">Web Design</p>
-
-                    <h3 class="h3 card-title">Snowlake Theme</h3>
-
-                    <p class="card-text">
-                      Maecenas faucibus mollis interdum sed posuere consectetur
-                      est at lobortis. Scelerisque id ligula porta felis euismod
-                      semper. Fusce dapibus tellus cursus.
-                    </p>
-
-                    <a href="#" class="btn-text" style="color: #a07cc5">
-                      <span class="span">See Project</span>
-
-                      <ion-icon
-                        name="arrow-forward-outline"
-                        aria-hidden="true"
-                      ></ion-icon>
-                    </a>
-                  </div>
-
-                  <figure class="card-banner" data-reveal="right">
-                    <img
-                      src="./assets/images/projects-1.jpg"
-                      width="650"
-                      height="370"
-                      loading="lazy"
-                      alt="Web Design"
-                      class="w-100"
-                    />
-                  </figure>
-                </div>
-              </li>
-
-              <li>
-                <div
-                  class="project-card project-card-2"
-                  style="background-color: #f1f5fd"
-                >
-                  <div class="card-content" data-reveal="right">
-                    <p class="card-tag" style="color: #3f78e0">Mobile Design</p>
-
-                    <h3 class="h3 card-title">Budget App</h3>
-
-                    <p class="card-text">
-                      Maecenas faucibus mollis interdum sed posuere consectetur
-                      est at lobortis. Scelerisque id ligula porta felis euismod
-                      semper. Fusce dapibus tellus cursus.
-                    </p>
-
-                    <a href="#" class="btn-text" style="color: #3f78e0">
-                      <span class="span">See Project</span>
-
-                      <ion-icon
-                        name="arrow-forward-outline"
-                        aria-hidden="true"
-                      ></ion-icon>
-                    </a>
-                  </div>
-
-                  <figure class="card-banner" data-reveal="left">
-                    <img
-                      src="./assets/images/projects-2.jpg"
-                      width="600"
-                      height="367"
-                      loading="lazy"
-                      alt="Web Design"
-                      class="w-100"
-                    />
-                  </figure>
-                </div>
-              </li>
-
-              <li>
-                <div
-                  class="project-card project-card-3"
-                  style="background-color: #f5faf7"
-                >
-                  <div class="card-content" data-reveal="left">
-                    <p class="card-tag" style="color: #7cb798">Web Design</p>
-
-                    <h3 class="h3 card-title">Missio Theme</h3>
-
-                    <p class="card-text">
-                      Maecenas faucibus mollis interdum sed posuere porta
-                      consectetur cursus porta lobortis. Scelerisque id ligula
-                      felis.
-                    </p>
-
-                    <a href="#" class="btn-text" style="color: #7cb798">
-                      <span class="span">See Project</span>
-
-                      <ion-icon
-                        name="arrow-forward-outline"
-                        aria-hidden="true"
-                      ></ion-icon>
-                    </a>
-                  </div>
-
-                  <figure class="card-banner" data-reveal="right">
-                    <img
-                      src="./assets/images/projects-3.jpg"
-                      width="600"
-                      height="367"
-                      loading="lazy"
-                      alt="Web Design"
-                      class="w-100"
-                    />
-                  </figure>
-                </div>
-              </li>
-
-              <li>
-                <div
-                  class="project-card project-card-4"
-                  style="background-color: #fcf4f6"
-                >
-                  <div class="card-content" data-reveal="left">
-                    <p class="card-tag" style="color: #d16b86">Mobile Design</p>
-
-                    <h3 class="h3 card-title">Storage App</h3>
-
-                    <p class="card-text">
-                      Maecenas faucibus mollis interdum sed posuere consectetur
-                      est at lobortis. Scelerisque id ligula porta felis euismod
-                      semper.
-                    </p>
-
-                    <a href="#" class="btn-text" style="color: #d16b86">
-                      <span class="span">See Project</span>
-
-                      <ion-icon
-                        name="arrow-forward-outline"
-                        aria-hidden="true"
-                      ></ion-icon>
-                    </a>
-                  </div>
-
-                  <figure class="card-banner" data-reveal="right">
-                    <img
-                      src="./assets/images/projects-4.jpg"
-                      width="620"
-                      height="370"
-                      loading="lazy"
-                      alt="Mobile Design"
-                      class="w-100"
-                    />
-                  </figure>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <!--  
-        - #TESTIMONIALS
-        -->
-        <section
-          id="testimonials"
-          class="section testimonials"
-          aria-labelledby="testimonials-label"
-        >
-          <div class="container">
-            <div class="title-wrapper" data-reveal="top">
-              <h2 class="h2 section-title" id="testimonials-label">
-                Testimonials
-              </h2>
-              <p class="section-text">What my clients are saying</p>
-            </div>
-
-            <ul
-              class="testimonials-list"
-              style="
-                display: flex;
-                justify-content: space-between;
-                flex-wrap: wrap;
-              "
-            >
-              <li
-                class="testimonial-item"
-                data-reveal="bottom"
-                style="flex: 1; margin: 10px"
-              >
-                <div
-                  class="testimonial-card"
-                  style="
-                    background-color: #f9f9f9;
-                    border-radius: 10px;
-                    padding: 20px;
-                    text-align: center;
-                    position: relative;
-                  "
-                >
-                  <img
-                    src="./assets/images/jon.webp"
-                    width="80"
-                    height="80"
-                    alt="Client photo"
-                    class="client-photo"
-                    style="
-                      border-radius: 50%;
-                      position: absolute;
-                      top: -40px;
-                      left: 50%;
-                      transform: translateX(-50%);
-                    "
-                  />
-                  <p class="testimonial-text" style="margin-top: 50px">
-                    "Julia is an exceptional designer and developer. Her
-                    attention to detail and creativity are unmatched."
-                  </p>
-                  <div class="client-info" style="margin-top: 20px">
-                    <h3 class="h4 client-name">John Doe</h3>
-                    <p class="client-position">CEO, Company</p>
-                  </div>
-                </div>
-              </li>
-
-              <li
-                class="testimonial-item"
-                data-reveal="bottom"
-                data-reveal-delay="0.25s"
-                style="flex: 1; margin: 10px"
-              >
-                <div
-                  class="testimonial-card"
-                  style="
-                    background-color: #f9f9f9;
-                    border-radius: 10px;
-                    padding: 20px;
-                    text-align: center;
-                    position: relative;
-                  "
-                >
-                  <img
-                    src="./assets/images/joni.jpg"
-                    width="80"
-                    height="80"
-                    alt="Client photo"
-                    class="client-photo"
-                    style="
-                      border-radius: 50%;
-                      position: absolute;
-                      top: -40px;
-                      left: 50%;
-                      transform: translateX(-50%);
-                    "
-                  />
-                  <p class="testimonial-text" style="margin-top: 50px">
-                    "Working with Julia was a pleasure. She delivered
-                    high-quality work on time and exceeded our expectations."
-                  </p>
-                  <div class="client-info" style="margin-top: 20px">
-                    <h3 class="h4 client-name">Jane Smith</h3>
-                    <p class="client-position">Marketing Manager, Company</p>
-                  </div>
-                </div>
-              </li>
-
-              <li
-                class="testimonial-item"
-                data-reveal="bottom"
-                data-reveal-delay="0.5s"
-                style="flex: 1; margin: 10px"
-              >
-                <div
-                  class="testimonial-card"
-                  style="
-                    background-color: #f9f9f9;
-                    border-radius: 10px;
-                    padding: 20px;
-                    text-align: center;
-                    position: relative;
-                  "
-                >
-                  <img
-                    src="./assets/images/ran.jpg"
-                    width="80"
-                    height="80"
-                    alt="Client photo"
-                    class="client-photo"
-                    style="
-                      border-radius: 50%;
-                      position: absolute;
-                      top: -40px;
-                      left: 50%;
-                      transform: translateX(-50%);
-                    "
-                  />
-                  <p class="testimonial-text" style="margin-top: 50px">
-                    "Julia's expertise in UI/UX design helped us create a
-                    user-friendly and visually appealing website."
-                  </p>
-                  <div class="client-info" style="margin-top: 20px">
-                    <h3 class="h4 client-name">Michael Brown</h3>
-                    <p class="client-position">Product Manager, Company</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <!-- 
-        - #CONTACT
-      -->
-
-        <section id="contact" class="section contact" aria-label="contact">
-          <div class="container">
-            <div class="contact-card">
-              <div class="contact-content" data-reveal="left">
-                <div class="card-icon">
-                  <img
-                    src="./assets/images/icon-5.svg"
-                    width="44"
-                    height="44"
-                    loading="lazy"
-                    alt="envelop icon"
-                  />
-                </div>
-
-                <h2 class="h2 section-title">
-                  If you like what you see, let's work together.
-                </h2>
-
-                <p class="section-text">
-                  I bring rapid solutions to make the life of my clients easier.
-                  Have any questions? Reach out to me from this contact form and
-                  I will get back to you shortly.
-                </p>
-              </div>
-
-              <form action="" class="contact-form" data-reveal="right">
-                <div class="input-wrapper">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Name *"
-                    required
-                    class="input-field"
-                  />
-
-                  <input
-                    type="email"
-                    name="email_address"
-                    placeholder="Email *"
-                    required
-                    class="input-field"
-                  />
-                </div>
-
-                <textarea
-                  name="message"
-                  placeholder="Message *"
-                  required
-                  class="input-field"
-                ></textarea>
-
-                <button type="submit" class="btn btn-secondary">
-                  Send message
-                </button>
-              </form>
-            </div>
-          </div>
-        </section>
-      </article>
-    </main>
-
-    <!-- 
-    - #FOOTER
-  -->
-
-    <footer class="footer">
-      <div class="container">
-        <p class="copyright">
-          <a href="https://gktechspheres.tech/">
-            ©2025 GK TechSphere's. All rights reserved</a
-          >
-        </p>
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./assets/images/sasank.png" width="64" height="24" alt="Julia home" />
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/nav.png" alt="sasank" width="64" height="24" alt="Julia home" />
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#Services" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#testimonials" class="navbar-link">Testimonials</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">sasankchawa@gmail.com</a>
+
+          <a href="tel:001234567890" class="contact-link">+91-9392427465</a>
+        </div>
 
         <ul class="social-list">
           <li>
@@ -840,10 +99,7 @@
           </li>
 
           <li>
-            <a
-              href="#https://www.facebook.com/sasank.chava"
-              class="social-link"
-            >
+            <a href="#https://www.facebook.com/sasank.chava" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
@@ -855,10 +111,7 @@
           </li>
 
           <li>
-            <a
-              href="#https://www.instagram.com/sasank.__ch?igsh=dnI0bGxvajFvdmhq"
-              class="social-link"
-            >
+            <a href="#https://www.instagram.com/sasank.__ch?igsh=dnI0bGxvajFvdmhq" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
@@ -869,24 +122,531 @@
             </a>
           </li>
         </ul>
-      </div>
-    </footer>
+      </nav>
 
-    <!-- 
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+          <figure class="hero-banner">
+            <img src="./assets/images/main.jpg" width="560" height="540" alt="Julia" class="w-100" data-reveal="top" />
+
+            <img src="./assets/images/hero-shape.svg" width="203" height="91" alt="250+ Projects Done" class="shape"
+              data-reveal="top" data-reveal-delay="0.25s" />
+          </figure>
+
+          <div class="hero-content">
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              I'm Creative Designer & Audio Engineer.
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              Hello! I'm sasank Creative Designer & Audio Engineer. I specialize in UI/UX, graphic design, and sound
+              mastering, passionately crafting seamless digital experiences.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="#projects" class="btn btn-primary">See My Works</a>
+
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about me 
+            -->
+
+      <section id="about" class="section about" aria-label="about">
+        <div class="container">
+          <div class="wrapper">
+            <div data-reveal="left">
+              <h2 class="h2 section-title">About Me</h2>
+
+              <p class="section-text">
+                I’m C. Sasank, a passionate creative professional with expertise in Graphic Design, Editing, UI/UX, and
+                Sound Mixing & Mastering. My journey in academics began at Bhashyam E.M High School, where I completed
+                my 10th grade, followed by my Intermediate at Andhra Loyola College in the CEC group. Currently, I’m
+                pursuing my degree at Loyola College, continuously honing my skills in design and multimedia.
+
+                With an eye for aesthetics and precision, I craft stunning graphics, seamless UI, and high-quality
+                audio. I strive for excellence in every project. 🚀
+              </p>
+            </div>
+            <div data-reveal="right">
+              <img src="./assets/images/about.jpg" loading="lazy" alt="web design icon" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #services 
+      -->
+
+      <section id="Services" class="section about" aria-label="about">
+        <div class="container">
+          <div class="wrapper">
+            <div data-reveal="left">
+              <h2 class="h2 section-title">Services</h2>
+
+              <p class="section-text">
+                I provide Graphic Design, Editing, UI/UX, and Sound Mixing & Mastering services, delivering visually
+                stunning designs, seamless digital experiences, and high-quality audio. Whether it's crafting engaging
+                user interfaces or perfecting sound, I ensure creativity and precision in every project.
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+              <li class="progress-item">
+                <div class="label-wrapper">
+                  <p>GRAPHIC DESIGN</p>
+
+                  <span class="span">95 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #c7b1dd"></div>
+                </div>
+              </li>
+
+              <li class="progress-item">
+                <div class="label-wrapper">
+                  <p>EDITING</p>
+
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #8caeec"></div>
+                </div>
+              </li>
+
+              <li class="progress-item">
+                <div class="label-wrapper">
+                  <p>UI/UX</p>
+
+                  <span class="span">60 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 85%; background-color: #b0d4c1"></div>
+                </div>
+              </li>
+
+              <li class="progress-item">
+                <div class="label-wrapper">
+                  <p>SOUND MIXING AND MASTERING</p>
+
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #e3a6b6"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="grid-list">
+            <li data-reveal="bottom">
+              <div class="about-card">
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon" />
+                </div>
+
+                <h3 class="h4 card-title">GRAPHIC DESIGN</h3>
+
+                <p class="card-text">
+                  I create eye-catching designs that blend creativity and strategy, from branding to marketing
+                  materials, ensuring a strong visual impact.
+                </p>
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.svg" width="52" height="52" loading="lazy"
+                    alt="mobile design icon" />
+                </div>
+
+                <h3 class="h4 card-title">EDITING</h3>
+
+                <p class="card-text">
+                  I enhance visuals with precision, from photo retouching to video editing, ensuring a polished and
+                  professional look.
+                </p>
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon" />
+                </div>
+
+                <h3 class="h4 card-title">UI/UX</h3>
+
+                <p class="card-text">
+                  I design intuitive and engaging user interfaces, focusing on seamless experiences that enhance
+                  usability and aesthetics.
+                </p>
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon" />
+                </div>
+
+                <h3 class="h4 card-title">SOUND MIXING AND MASTERING</h3>
+
+                <p class="card-text">
+                  I refine audio for clear, balanced, and high-quality sound through expert mixing and mastering.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section id="projects" class="section project" aria-labelledby="project-label">
+        <div class="container">
+          <div class="title-wrapper" data-reveal="top">
+            <div>
+              <h2 class="h2 section-title" id="project-label">
+                Latest Projects
+              </h2>
+
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+
+            <a href="#" class="btn btn-secondary">See All Projects</a>
+          </div>
+
+          <ul class="grid-list">
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+                <div class="card-content" data-reveal="left">
+                  <p class="card-tag" style="color: #a07cc5">Album design</p>
+
+                  <h3 class="h3 card-title">GRAPHIC DESIGN</h3>
+
+                  <p class="card-text">
+                    I create eye-catching designs that blend creativity and strategy, from branding to marketing
+                    materials, ensuring a strong visual impact.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #a07cc5">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/projects-1.jpg" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100" />
+                </figure>
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+                <div class="card-content" data-reveal="right">
+                  <p class="card-tag" style="color: #3f78e0">Photo editing</p>
+
+                  <h3 class="h3 card-title">EDITING</h3>
+
+                  <p class="card-text">
+                    I specialize in enhancing visuals through precise photo retouching, video editing, and color
+                    correction. With a keen eye for detail, I ensure every frame is polished, seamless, and visually
+                    engaging, delivering high-quality results that stand out.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/projects-2.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100" />
+                </figure>
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+                <div class="card-content" data-reveal="left">
+                  <p class="card-tag" style="color: #7cb798">Web Design</p>
+
+                  <h3 class="h3 card-title">UI/UX</h3>
+
+                  <p class="card-text">
+                    I design intuitive and engaging user interfaces, focusing on seamless experiences that enhance
+                    usability and aesthetics.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #7cb798">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/uiux.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100" />
+                </figure>
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+                <div class="card-content" data-reveal="left">
+                  <p class="card-tag" style="color: #d16b86">Audio Engineer</p>
+
+                  <h3 class="h3 card-title">SOUND MIXING AND MASTERING</h3>
+
+                  <p class="card-text">
+                    I bring audio to life with expert mixing and mastering, ensuring clarity, depth, and balance. From
+                    refining raw recordings to enhancing vocals, instruments, and effects, I create a rich, immersive
+                    sound that delivers a professional and polished listening experience.
+                  </p>
+                  <a href="#" class="btn-text" style="color: #d16b86">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/image.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100" />
+                </figure>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--  
+        - #TESTIMONIALS
+        -->
+      <section id="testimonials" class="section testimonials" aria-labelledby="testimonials-label">
+        <div class="container">
+          <div class="title-wrapper" data-reveal="top">
+            <h2 class="h2 section-title" id="testimonials-label">
+              Testimonials
+            </h2>
+            <p class="section-text">What my clients are saying</p>
+          </div>
+
+          <ul class="testimonials-list" style="
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+              ">
+            <li class="testimonial-item" data-reveal="bottom" style="flex: 1; margin: 10px">
+              <div class="testimonial-card" style="
+                    background-color: #f9f9f9;
+                    border-radius: 10px;
+                    padding: 20px;
+                    text-align: center;
+                    position: relative;
+                  ">
+                <img src="./assets/images/jon.webp" width="80" height="80" alt="Client photo" class="client-photo"
+                  style="
+                      border-radius: 50%;
+                      position: absolute;
+                      top: -40px;
+                      left: 50%;
+                      transform: translateX(-50%);
+                    " />
+                <p class="testimonial-text" style="margin-top: 50px">
+                  "Absolutely fantastic experience! Professional, creative, and delivers beyond expectations."
+                </p>
+                <div class="client-info" style="margin-top: 20px">
+                  <h3 class="h4 client-name">K.pavan kumar</h3>
+                  <a href="https://gktechspheres.tech/" class="client-position">Creative Director at GK TechSphere's</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonial-item" data-reveal="bottom" data-reveal-delay="0.25s" style="flex: 1; margin: 10px">
+              <div class="testimonial-card" style="
+                    background-color: #f9f9f9;
+                    border-radius: 10px;
+                    padding: 20px;
+                    text-align: center;
+                    position: relative;
+                  ">
+                <img src="./assets/images/joni.jpg" width="80" height="80" alt="Client photo" class="client-photo"
+                  style="
+                      border-radius: 50%;
+                      position: absolute;
+                      top: -40px;
+                      left: 50%;
+                      transform: translateX(-50%);
+                    " />
+                <p class="testimonial-text" style="margin-top: 50px">
+                  "Highly skilled and detail-oriented. The final result was flawless and exceeded my standards."
+                </p>
+                <div class="client-info" style="margin-top: 20px">
+                  <h3 class="h4 client-name">S.sudha vani</h3>
+                  <p class="client-position">Marketing Manager</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonial-item" data-reveal="bottom" data-reveal-delay="0.5s" style="flex: 1; margin: 10px">
+              <div class="testimonial-card" style="
+                    background-color: #f9f9f9;
+                    border-radius: 10px;
+                    padding: 20px;
+                    text-align: center;
+                    position: relative;
+                  ">
+                <img src="./assets/images/ran.jpg" width="80" height="80" alt="Client photo" class="client-photo" style="
+                      border-radius: 50%;
+                      position: absolute;
+                      top: -40px;
+                      left: 50%;
+                      transform: translateX(-50%);
+                    " />
+                <p class="testimonial-text" style="margin-top: 50px">
+                  "Great communication and incredible quality. Would definitely recommend!"
+                </p>
+                <div class="client-info" style="margin-top: 20px">
+                  <h3 class="h4 client-name">G.pavan kumar</h3>
+                  <a href="https://gktechspheres.tech/" class="client-position">Lead Developer at GK TechSphere's</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section id="contact" class="section contact" aria-label="contact">
+        <div class="container">
+          <div class="contact-card">
+            <div class="contact-content" data-reveal="left">
+              <div class="card-icon">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon" />
+              </div>
+
+              <h2 class="h2 section-title">
+                If you like what you see, let's work together.
+              </h2>
+
+              <p class="section-text">
+                Have a project or an idea? Let’s create something amazing together! Reach out and let’s make it happen.
+                🚀
+              </p>
+            </div>
+
+            <form action="" class="contact-form" data-reveal="right">
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field" />
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field" />
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                Send message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+      <p class="copyright">
+        <a href="https://gktechspheres.tech/">
+          ©2025 GK TechSphere's. All rights reserved</a>
+      </p>
+
+      <ul class="social-list">
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#https://www.facebook.com/sasank.chava" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-dribbble"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#https://www.instagram.com/sasank.__ch?igsh=dnI0bGxvajFvdmhq" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- 
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 
-    <!-- 
+  <!-- 
     - ionicon link
   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
