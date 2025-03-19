@@ -509,6 +509,15 @@ body.nav-active {
     margin-block-end: 70px;
 }
 
+.about .wrapper > div{
+    flex-basis: 50%;
+    overflow: hidden;
+}
+
+.about .wrapper > div  img {
+    width: 30em;
+}
+
 .progress-list .label-wrapper {
     display: flex;
     justify-content: space-between;
