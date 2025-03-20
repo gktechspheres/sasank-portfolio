@@ -560,6 +560,61 @@ img {
 }
 
 /*-----------------------------------*\
+  #SERVICES
+\*-----------------------------------*/
+
+.services .wrapper {
+    display: flex;  
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.services .wrapper > div  {
+    flex-basis: 50%;
+}
+
+.services .grid-list {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 968px) {
+    .services .wrapper {
+        flex-direction: column;
+    }
+}   
+
+@media screen and (max-width:992px) {
+    .services .grid-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:468px) { 
+     .services .grid-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+.testimonials-list {
+    flex-direction: row;
+}
+
+.testimonial-item {
+    margin: 10px;
+}
+
+@media screen and (max-width:768px) { 
+    .testimonials-list {
+        flex-direction: column;
+    }
+    .testimonial-item {
+        margin-bottom: 40px;
+    }
+}
+
+
+/*-----------------------------------*\
   #PROJECTS
 \*-----------------------------------*/
 
